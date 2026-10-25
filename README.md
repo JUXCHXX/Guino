@@ -6,6 +6,8 @@
 
 <br>
 
+### GUINO
+
 ### El teleprompter que vive en tu notch.
 
 Lee tu guion justo debajo de la cámara, sin abrir otra ventana y sin perder el contacto visual.
