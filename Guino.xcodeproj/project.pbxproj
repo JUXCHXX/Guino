@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0581B9910D52FA471F816E60 /* NotchPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFBF839F7AF6873ACEAC11 /* NotchPanel.swift */; };
+		15709CB75515DFD758AA53D6 /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCC509F601252C7D4F3D25 /* icon_128x128@2x.png */; };
+		21D05A0D30983B33549CCB44 /* NotchWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF89BF79536CA0BA475EB642 /* NotchWindowController.swift */; };
+		21E43B532F696FC1C4ECAF33 /* guino_logo_with_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DFCA49302C5538AF1DEBEDFB /* guino_logo_with_background.png */; };
+		22F4E3C06B50F0E4BC4DDCBA /* TeleprompterEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF132938DE785CBECB699D8 /* TeleprompterEngine.swift */; };
+		27A4C64DF2231DA0DFA3E1AB /* icon_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E7637130955768DB902BB9 /* icon_256x256.png */; };
+		3071341D12614769E6937E1F /* icon_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D65D259A1BF9BA2E5B8D3D /* icon_32x32.png */; };
+		4A43ADA1CE656FBB391960C2 /* VoiceActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB505B765EF94FBCD606216 /* VoiceActivityDetector.swift */; };
+		6F78C11D01897332F15115C3 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6A54A02D65486B3722FC5E /* ControlPanelView.swift */; };
+		7B786482D65E867DBE80A16B /* icon_32x32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE550194EB1AC0FE5A3F9295 /* icon_32x32@2x.png */; };
+		7B887790F484F8F8E159C195 /* GuinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09C2722F638E6507AFFA1C4 /* GuinoApp.swift */; };
+		8CFEC40996069BB938882B34 /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5D4AF0153FAE00C4EB9FF3 /* icon_128x128.png */; };
+		900574587584A83DF95A36C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E2B95E5D4989C8E423B1C4 /* Assets.xcassets */; };
+		92F3436AC46E56B11C45CFDB /* guino_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD4EE9EB56A822D768BB321 /* guino_logo.png */; };
+		9A17985A0252E13E647751AC /* icon_512x512@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC79063A226EB4D1595D50A3 /* icon_512x512@2x.png */; };
+		9F30B48517B38C4CADF306C7 /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E999F7EC6AC13370182FB16 /* icon_16x16.png */; };
+		AD73537B420939653253CCFD /* icon_256x256@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEC62FD8F62A859C0B8F63B /* icon_256x256@2x.png */; };
+		B86504EC39ED148669868785 /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FDBB811B4BBBFD59A209E9 /* HotkeyManager.swift */; };
+		CDF0C579B293028391B62998 /* icon_16x16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1796C3B5FEEF1E946EC5F990 /* icon_16x16@2x.png */; };
+		E1D2FEFCD59EEFC312799138 /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C50724E8CFE9939DAB8E59B /* icon_512x512.png */; };
+		F355D461D47A700218AEED58 /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4409C9D67B631C69DA3B84CB /* NotchView.swift */; };
+		F9DA14980C5A5D819EEF2F6D /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = F489D3FDEAED7544D2E12D80 /* Contents.json */; };
+		FB8AFE7B8056D40A3DA52645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF186058490FFDD1B42CE766 /* AppDelegate.swift */; };
+		FD68F2B2AA09EA0104CCA816 /* NotchShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381B1C0376EB99E3DC0A3FD9 /* NotchShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16D65D259A1BF9BA2E5B8D3D /* icon_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_32x32.png; sourceTree = "<group>"; };
+		1796C3B5FEEF1E946EC5F990 /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = "<group>"; };
+		1B6A54A02D65486B3722FC5E /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		26E7637130955768DB902BB9 /* icon_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_256x256.png; sourceTree = "<group>"; };
+		2E5D4AF0153FAE00C4EB9FF3 /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_128x128.png; sourceTree = "<group>"; };
+		381B1C0376EB99E3DC0A3FD9 /* NotchShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchShape.swift; sourceTree = "<group>"; };
+		38FDBB811B4BBBFD59A209E9 /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		3AFCC509F601252C7D4F3D25 /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_128x128@2x.png"; sourceTree = "<group>"; };
+		3B2847C9DEF87D671A47214D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E999F7EC6AC13370182FB16 /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
+		4409C9D67B631C69DA3B84CB /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
+		4ACFBF839F7AF6873ACEAC11 /* NotchPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchPanel.swift; sourceTree = "<group>"; };
+		5DEC62FD8F62A859C0B8F63B /* icon_256x256@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_256x256@2x.png"; sourceTree = "<group>"; };
+		6C50724E8CFE9939DAB8E59B /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512x512.png; sourceTree = "<group>"; };
+		80E2B95E5D4989C8E423B1C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DF132938DE785CBECB699D8 /* TeleprompterEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterEngine.swift; sourceTree = "<group>"; };
+		A09C2722F638E6507AFFA1C4 /* GuinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuinoApp.swift; sourceTree = "<group>"; };
+		AF89BF79536CA0BA475EB642 /* NotchWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchWindowController.swift; sourceTree = "<group>"; };
+		AFB505B765EF94FBCD606216 /* VoiceActivityDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceActivityDetector.swift; sourceTree = "<group>"; };
+		B06D7E8737B4DE932AC00B5A /* Guino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD4EE9EB56A822D768BB321 /* guino_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guino_logo.png; sourceTree = "<group>"; };
+		CC79063A226EB4D1595D50A3 /* icon_512x512@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_512x512@2x.png"; sourceTree = "<group>"; };
+		DE550194EB1AC0FE5A3F9295 /* icon_32x32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_32x32@2x.png"; sourceTree = "<group>"; };
+		DFCA49302C5538AF1DEBEDFB /* guino_logo_with_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guino_logo_with_background.png; sourceTree = "<group>"; };
+		EF186058490FFDD1B42CE766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F489D3FDEAED7544D2E12D80 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		004346BD4FF552DE85256518 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				F489D3FDEAED7544D2E12D80 /* Contents.json */,
+				3E999F7EC6AC13370182FB16 /* icon_16x16.png */,
+				1796C3B5FEEF1E946EC5F990 /* icon_16x16@2x.png */,
+				16D65D259A1BF9BA2E5B8D3D /* icon_32x32.png */,
+				DE550194EB1AC0FE5A3F9295 /* icon_32x32@2x.png */,
+				2E5D4AF0153FAE00C4EB9FF3 /* icon_128x128.png */,
+				3AFCC509F601252C7D4F3D25 /* icon_128x128@2x.png */,
+				26E7637130955768DB902BB9 /* icon_256x256.png */,
+				5DEC62FD8F62A859C0B8F63B /* icon_256x256@2x.png */,
+				6C50724E8CFE9939DAB8E59B /* icon_512x512.png */,
+				CC79063A226EB4D1595D50A3 /* icon_512x512@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		0158DB02FF21F56590E34674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B6A54A02D65486B3722FC5E /* ControlPanelView.swift */,
+				381B1C0376EB99E3DC0A3FD9 /* NotchShape.swift */,
+				4409C9D67B631C69DA3B84CB /* NotchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		490637CEC04A70007832CA0B /* Guino */ = {
+			isa = PBXGroup;
+			children = (
+				EF186058490FFDD1B42CE766 /* AppDelegate.swift */,
+				A09C2722F638E6507AFFA1C4 /* GuinoApp.swift */,
+				3B2847C9DEF87D671A47214D /* Info.plist */,
+				609E69992FAFF23588E4CD36 /* Core */,
+				80EC4C2D1D1540B113AAF944 /* Resources */,
+				0158DB02FF21F56590E34674 /* Views */,
+				94C39D83B223BB7426F15693 /* Window */,
+			);
+			path = Guino;
+			sourceTree = "<group>";
+		};
+		609E69992FAFF23588E4CD36 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38FDBB811B4BBBFD59A209E9 /* HotkeyManager.swift */,
+				8DF132938DE785CBECB699D8 /* TeleprompterEngine.swift */,
+				AFB505B765EF94FBCD606216 /* VoiceActivityDetector.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		61F5B8140D3587E924022941 = {
+			isa = PBXGroup;
+			children = (
+				490637CEC04A70007832CA0B /* Guino */,
+				C746653AA361777DF7905E5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80EC4C2D1D1540B113AAF944 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80E2B95E5D4989C8E423B1C4 /* Assets.xcassets */,
+				DFCA49302C5538AF1DEBEDFB /* guino_logo_with_background.png */,
+				BBD4EE9EB56A822D768BB321 /* guino_logo.png */,
+				004346BD4FF552DE85256518 /* AppIcon.appiconset */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94C39D83B223BB7426F15693 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				4ACFBF839F7AF6873ACEAC11 /* NotchPanel.swift */,
+				AF89BF79536CA0BA475EB642 /* NotchWindowController.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		C746653AA361777DF7905E5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06D7E8737B4DE932AC00B5A /* Guino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A973089D742B3204677530 /* Guino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45D7C9DFDC9BC64049966A88 /* Build configuration list for PBXNativeTarget "Guino" */;
+			buildPhases = (
+				2F904B2C8CB5596F7673ADFA /* Sources */,
+				13A713197A7EF7E5ADC8401E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Guino;
+			packageProductDependencies = (
+			);
+			productName = Guino;
+			productReference = B06D7E8737B4DE932AC00B5A /* Guino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C41BFCF0ABD8F7D1FA2950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E5A973089D742B3204677530 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 17AEEA0F8C67463EDF4CDFD3 /* Build configuration list for PBXProject "Guino" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 61F5B8140D3587E924022941;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C746653AA361777DF7905E5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A973089D742B3204677530 /* Guino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A713197A7EF7E5ADC8401E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900574587584A83DF95A36C2 /* Assets.xcassets in Resources */,
+				F9DA14980C5A5D819EEF2F6D /* Contents.json in Resources */,
+				92F3436AC46E56B11C45CFDB /* guino_logo.png in Resources */,
+				21E43B532F696FC1C4ECAF33 /* guino_logo_with_background.png in Resources */,
+				8CFEC40996069BB938882B34 /* icon_128x128.png in Resources */,
+				15709CB75515DFD758AA53D6 /* icon_128x128@2x.png in Resources */,
+				9F30B48517B38C4CADF306C7 /* icon_16x16.png in Resources */,
+				CDF0C579B293028391B62998 /* icon_16x16@2x.png in Resources */,
+				27A4C64DF2231DA0DFA3E1AB /* icon_256x256.png in Resources */,
+				AD73537B420939653253CCFD /* icon_256x256@2x.png in Resources */,
+				3071341D12614769E6937E1F /* icon_32x32.png in Resources */,
+				7B786482D65E867DBE80A16B /* icon_32x32@2x.png in Resources */,
+				E1D2FEFCD59EEFC312799138 /* icon_512x512.png in Resources */,
+				9A17985A0252E13E647751AC /* icon_512x512@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F904B2C8CB5596F7673ADFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8AFE7B8056D40A3DA52645 /* AppDelegate.swift in Sources */,
+				6F78C11D01897332F15115C3 /* ControlPanelView.swift in Sources */,
+				7B887790F484F8F8E159C195 /* GuinoApp.swift in Sources */,
+				B86504EC39ED148669868785 /* HotkeyManager.swift in Sources */,
+				0581B9910D52FA471F816E60 /* NotchPanel.swift in Sources */,
+				FD68F2B2AA09EA0104CCA816 /* NotchShape.swift in Sources */,
+				F355D461D47A700218AEED58 /* NotchView.swift in Sources */,
+				21D05A0D30983B33549CCB44 /* NotchWindowController.swift in Sources */,
+				22F4E3C06B50F0E4BC4DDCBA /* TeleprompterEngine.swift in Sources */,
+				4A43ADA1CE656FBB391960C2 /* VoiceActivityDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05214B2DFD3FD449F0B153EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Guino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guino.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		057260D95E6B79CC2D038D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4603D67E7D934FCF18D49B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Guino/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guino.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		EED353B5C0429D1451BC03A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17AEEA0F8C67463EDF4CDFD3 /* Build configuration list for PBXProject "Guino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057260D95E6B79CC2D038D65 /* Debug */,
+				EED353B5C0429D1451BC03A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45D7C9DFDC9BC64049966A88 /* Build configuration list for PBXNativeTarget "Guino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05214B2DFD3FD449F0B153EF /* Debug */,
+				4603D67E7D934FCF18D49B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C41BFCF0ABD8F7D1FA2950 /* Project object */;
+}
