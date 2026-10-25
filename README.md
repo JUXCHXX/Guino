@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="logo_con_fondo.png" alt="Guino" height="120">
+<img src="icono_app.png" alt="Guino" height="110" align="middle">
 &nbsp;&nbsp;&nbsp;&nbsp;<b>✕</b>&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="iphone.png" alt="Apple" height="120">
+<img src="iphone.png" alt="Apple" height="110" align="middle">
 
-# Guino
+<br>
 
 ### El teleprompter que vive en tu notch.
 
@@ -12,7 +12,7 @@ Lee tu guion justo debajo de la cámara, sin abrir otra ventana y sin perder el 
 
 <br>
 
-[![Descargar](https://img.shields.io/badge/Descargar-Guino%201.0-black?style=for-the-badge&logo=apple&logoColor=white)](dist/Guino-1.0.dmg)
+[![Descargar](https://img.shields.io/badge/Descargar-Guino%201.0-black?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/JUXCHXX/Guino/releases/latest)
 
 ![Versión](https://img.shields.io/badge/versión-1.0-blue?style=flat-square)
 ![Plataforma](https://img.shields.io/badge/macOS-14%2B-lightgrey?style=flat-square&logo=apple)
@@ -115,14 +115,17 @@ Guino puede avanzar sin depender del micrófono, usando palabras por minuto. Tam
 
 ### Opción 1: Descargar la app
 
-1. Descarga [Guino-1.0.dmg](dist/Guino-1.0.dmg).
+1. Ve a [**Releases**](https://github.com/JUXCHXX/Guino/releases/latest) y descarga `Guino-1.0.dmg`.
 2. Ábrelo y arrastra **Guino** a la carpeta **Aplicaciones**.
 3. Abre Guino desde Aplicaciones o Launchpad.
+
+> [!NOTE]
+> Mientras la app no esté firmada ni notarizada por Apple (prevista para la versión 2.0), macOS puede bloquear el primer arranque. En ese caso, haz clic derecho sobre Guino > **Abrir**, o ve a **Ajustes del Sistema > Privacidad y seguridad** y pulsa **Abrir de todos modos**.
 
 ### Opción 2: Compilar desde el código
 
 ```bash
-git clone <URL-DEL-REPOSITORIO>
+git clone https://github.com/JUXCHXX/Guino.git
 cd guino
 xcodegen generate
 open Guino.xcodeproj
